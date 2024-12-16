@@ -1,5 +1,3 @@
-
-
 # Weather Application 🌦️
 
 This is a simple, interactive Weather Application built using React.js and Material-UI (MUI). It allows users to search for current weather conditions by city name, displaying dynamic weather data such as temperature, humidity, and weather description, alongside icons and images tailored to the weather conditions.
