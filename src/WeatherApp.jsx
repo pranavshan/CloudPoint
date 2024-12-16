@@ -16,7 +16,7 @@ export default function WeatherApp(){
     }
 
     return (
-        <div><h2>Weather Widget</h2>
+        <div><h2>Cloud Point</h2>
         <SearchBox updateInfo={updateInfo}/>
         <InfoBox info = {weatherInfo}/>
         </div>
