@@ -1,8 +1,50 @@
-# React + Vite
+Weather Application 🌦️
+This is a simple, interactive Weather Application built using React.js and Material-UI (MUI). It allows users to search for current weather conditions by city name, displaying dynamic weather data such as temperature, humidity, and weather description, alongside icons and images tailored to the weather conditions.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features ✨
+🌍 Search Weather by City: Enter the name of a city to fetch real-time weather data.
+📊 Dynamic Weather Details:
+Current temperature
+Feels-like temperature
+Humidity
+Min/Max temperatures
+Weather description
+🎨 Dynamic Visuals:
+Weather-specific icons for sunny, rainy, or cold conditions.
+Background images that change based on the weather.
+🛠️ Powered By: OpenWeatherMap API for real-time weather data.
 
-Currently, two official plugins are available:
+Technologies Used 🛠️
+React.js: Frontend framework for building user interfaces.
+Material-UI: Modern UI components for a polished look.
+Vite: Fast development and production build tool.
+OpenWeatherMap API: Fetching real-time weather data.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Installation 🖥️
+Clone the repository:
+
+bash
+git clone https://github.com/<your-username>/<repository-name>.git
+cd <repository-name>
+
+Install dependencies:
+npm install
+
+Start the development server:
+npm run dev
+
+Build for production:
+npm run build
+
+Deployment 🌐
+The application is deployed using Render. The production build files are located in the dist directory.
+
+To deploy:
+
+Build the project:
+npm run build
+Ensure your Render configuration points to the dist directory as the Publish Directory.
+
+Known Issues 🚧
+Large Images: Current weather images are large and may take time to load. Consider optimizing them before production deployment.
+API Limitations: Ensure your OpenWeatherMap API key has sufficient request limits for heavy usage.
