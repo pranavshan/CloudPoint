@@ -4,7 +4,16 @@ This is a simple, interactive Weather Application built using React.js and Mater
 
 # Features ✨
 
-🌍 Search Weather by City: Enter the name of a city to fetch real-time weather data. 📊 Dynamic Weather Details: Current temperature Feels-like temperature Humidity Min/Max temperatures Weather description
+🌍 Search Weather by City: Enter the name of a city to fetch real-time weather data. 
+
+📊 Dynamic Weather Details: 
+- Current temperature 
+- Feels-like 
+- temperature 
+- Humidity 
+- Min/Max 
+- temperatures 
+- Weather description
 
 # 🎨 Dynamic Visuals:
 
@@ -18,7 +27,7 @@ React.js: Frontend framework for building user interfaces. Material-UI: Modern U
 
 Clone the repository:
 
-bash git clone https://github.com//.git cd
+https://github.com/pranavshan/CloudPoint.git
 
 Install dependencies: npm install
 
@@ -35,3 +44,7 @@ To deploy:
 Build the project: npm run build Ensure your Render configuration points to the dist directory as the Publish Directory.
 
 Known Issues 🚧 Large Images: Current weather images are large and may take time to load. Consider optimizing them before production deployment. API Limitations: Ensure your OpenWeatherMap API key has sufficient request limits for heavy usage.
+
+
+# Render LIVE LINK
+https://cloudpoint.onrender.com
